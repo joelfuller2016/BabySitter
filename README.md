@@ -48,3 +48,6 @@ The job:
 Deliverable:
 
 - Calculate total pay, based on babysitter start and end time, and a family.
+
+#### Created By: Joel Fuller
+joelfuller2016@gmail.com
