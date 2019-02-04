@@ -7,8 +7,11 @@ Information regarding the Babysitter Payment Kata [here](https://github.com/Pill
 
 ### Run Tests
 
+- Find path of mstest.exe [MSTest.exe path]
+- Find the path of the downloaded files that contain program.cs [Program path]
+
 ```
-dotnet test BabySitter.UnitTests
+- [MSTest.exe path]\MSTest.exe /container:[Program path]/*.dll
 ```
 
 ### Run Console Application
