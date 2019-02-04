@@ -5,12 +5,6 @@ Information regarding the Babysitter Payment Kata [here](https://github.com/Pill
 ## Prerequisites
 - Familiarity and general knowledge of how to clone a repository and use Git.
 
-### Configuting Your Environment
-
-```
-dotnet restore
-```
-
 ### Run Tests
 
 ```
@@ -18,9 +12,17 @@ dotnet test BabySitter.UnitTests
 ```
 
 ### Run Console Application
-To run the Application execute the following command:
+
+- Find path of .Net Framwwork on local machine that contains the file csc.exe [.Net Path]
+- Find the path of the downloaded files that contain program.cs [Program path]
+
+To build the Application execute the following command:
 ```
-dotnet run --project BabySitter.Application
+- [.Net Path]\csc.exe -out:myBabySitterApp.exe [Program path]\*.cs
+```
+To execute the Application run the following command:
+```
+- [Program path]\myBabySitterApp.exe 
 ```
 
 ### Requirements
